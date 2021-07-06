@@ -10,7 +10,8 @@ This action doesn't accept any inputs. If you want to change a configuration, cr
 
 ```yaml
 - uses: actions/checkout@v2
-- run: |
+- name: Configure committer
+  run: |
     git config user.name "GitHub Actions Bot"
     git config user.email "<>"
 - name: Bump version
