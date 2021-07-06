@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-pre",
+  "private": true,
+  "scripts": {
+    "lint": "eslint .",
+    "build": "ncc build index.js -o dist --source-map --license licenses.txt",
+    "test": "echo no tests to run",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "GitHub",
+    "Actions",
+    "JavaScript"
+  ],
+  "dependencies": {
+    "@actions/core": "^1.2.5",
+    "standard-version": "^9.3.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.27.0",
+    "eslint": "^7.4.0",
+    "husky": "^7.0.1"
+  }
+}

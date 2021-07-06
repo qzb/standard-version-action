@@ -1,0 +1,8 @@
+name: 'Standard Version'
+description: 'Calculate new version based on Conventional Commits, update CHANGELOG and create new git tag'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
+branding:
+  icon: tag
+  color: purple
