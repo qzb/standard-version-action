@@ -13,7 +13,7 @@
     "JavaScript"
   ],
   "dependencies": {
-    "@actions/core": "^1.6.0",
+    "@actions/core": "^1.9.1",
     "standard-version": "^9.5.0"
   },
   "devDependencies": {
