@@ -15,7 +15,7 @@ This action doesn't accept any inputs. If you want to change a configuration, cr
     git config user.name "GitHub Actions Bot"
     git config user.email "<>"
 - name: Bump version
-  uses: qzb/standard-version@v1
+  uses: qzb/standard-version-action@v1.0.5
 ```
 
 [Github Action]: https://docs.github.com/en/actions
